@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Acceuil - Axel Seigneury</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin:0%
+            }
+            header,footer {
+                color: blanchedalmond;
+                padding: 0 20px;
+
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgba(0,0,0);
+
+            }
+            section {
+                background-color: white;
+                color:cornsilk;
+                /*border: solid 1px;*/
+                padding: 20px;
+            }
+            header ul {
+                margin: 0;
+                padding: O;
+                list-style: none;
+
+            }
+            header ul li {
+                display: inline-block;
+                padding: 10px 15px;
+                /*border: solid;*/
+                cursor: pointer;
+                font-size: 0.8rem;
+            }
+            .active{
+                background-color: burlywood;
+                color: white;
+                padding: 10px;
+            }
+            footer {
+                text-align:center;
+                padding: 10px;
+                background-color: black;
+            }
+            header a {
+                color: azure;
+                text-decoration: none;
+            }
+            nav.menu-nav ul li .btn:hover{
+                background-color: burlywood;
+                padding: 10px;
+                transition: 0.3s all;
+            }
+
+            .hero {
+                min-height: 90vh;
+                background: url("dorure.jpg");
+                background-size: cover;
+                background-position: bottom;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            button{
+                padding: 2rem 6rem;
+                background: burlywood;
+                color: white;
+                font-size: 1.8rem;
+                cursor: pointer;
+                border-color: white;
+            }
+            body{
+                font-family: 'Poppins', sans-serif;
+            }
+            .part2{
+                background-color: white;
+                color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>AXEL SEIGNEURY</h1>
+            <nav class="menu-nav">
+                <ul>
+                    <li>
+                        <a class="active" href="index.html">
+                            PAGE D'ACCEUIL
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="actualites.html">
+                            ACTUALITES
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="contenu.html">
+                            CONTENU
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="contact.html">
+                            CONTACTER
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+
+        </section>
+
+        <section class="hero">
+            <h1>Axel Seigneury</h1>
+            <h3> Bienvenu </h3>
+            <button> Mon metiers </button>
+        </section>
+
+        <section class="part2">
+            <div>
+                <div>
+                    <p>
+                        Voila la premiere partie
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        voila la deuxieme
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                Copyright &copy; M.Seigneury - 2020-2021 - All Right Reserved
+            </p>
+        </footer>
+
+    </body>
+
+</html>
